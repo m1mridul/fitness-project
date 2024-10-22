@@ -1,0 +1,86 @@
+@media screen and (max-width:576px) {
+    * {
+        max-width: 576px;
+    }
+
+    .nav-container {
+        width: 70%;
+        height: 43px;
+        border: 2px solid rebeccapurple;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .nav-content {
+        display: none;
+    }
+
+    .hum-burger {
+        display: block;
+        color: white;
+        width: 80px;
+        height: 60px;
+        margin-top: 45px;
+    }
+
+    .banner-container {
+        flex-direction: column;
+        width: 70%;
+
+    }
+
+    .banner-heading {
+        font-size: 36px;
+    }
+
+    .banner-content p {
+        font-size: 16px;
+    }
+
+    .button {
+        display: flex;
+        font-size: 8px;
+        fo
+    }
+
+    .button button {
+        width: 169px;
+        padding: 15px;
+        border-radius: 3rem;
+        padding: 16px 40px 16px 40px;
+        margin: 40px 14px;
+    }
+    /* #join{
+        margin-top: 40px;
+        padding: 15px;
+        width: 169px;
+    } */
+    .ellips-cart{
+        margin-left: 100px;
+        margin-top: 200px;
+    }
+    .Workout{
+        margin-left: 280px;
+        margin-top: 0.6px;
+    }
+    /* habit section starts here  */
+
+    .habit-container{
+        margin-top: 550px;
+    }
+    .habit-img-container{
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .first-cart{
+        margin-bottom: 80px;
+        height: 274px;
+        width: 70%;
+    }
+    .first-cart img{
+        /* width: 70%; */
+        margin-left: 70px;
+    }
+}
