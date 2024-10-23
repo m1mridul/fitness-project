@@ -486,7 +486,7 @@ tr:hover {
 .team-container {
     width: 80%;
     height: 782px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: -30px;
 }
@@ -502,7 +502,7 @@ tr:hover {
 .team-img-container {
     width: 100%;
     height: 80%;
-    border: 2px solid seagreen;
+    /* border: 2px solid seagreen; */
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
 }
@@ -523,3 +523,89 @@ tr:hover {
 }
 
 /* Team section ends here  */
+
+/* footer section starts here  */
+.footer-section {
+    width: 2000px;
+    height: 489px;
+    /* margin: 0 auto; */
+    /* padding-left: 40px; */
+    /* border: 2px solid palegreen; */
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 150px;
+
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    height: 249px;
+    background:none;
+    /* background: none; */
+    /* background: rgba(255, 255, 255, 0.1); */
+    /* border: 2px solid forestgreen; */
+}
+
+.footer-heading {
+    height: 176px;
+    width: 443px;
+    /* border: 1px solid red; */
+    background: none;
+}
+.footer-heading p{
+    background: none;
+}
+.footer-heading i{
+    background: none;
+}
+.footer-heading h1 {
+    color: #E6533C;
+    background-color: white;
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: -10px;
+    background: none;
+    margin-left: 50px;
+}
+.get-started h3{
+    background: none;
+}
+.get-started{
+    color: white;
+    text-align: center;
+    margin-top: -180px;
+    background: none;
+}
+.get-started p{
+    padding-bottom: 5px;
+    background: none;
+}
+.get-started-two h3{
+    background: none;
+}
+.get-started-two{
+    color: white;
+    text-align: center;
+    margin-top: -190px;
+    margin-left: 600px;
+    background: none;
+}
+.get-started-two p{
+    padding-bottom: 5px;
+    background: none;
+}
+.custom-hr{
+        width: 80%; 
+        height: 2px;
+        background-color: #333; 
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        margin: 40px auto; 
+        }
+    .reserved{
+        margin: 0px;
+        background:none;
+        /* margin-top: 100px; */
+    }
+
+/* footer section ends here  */
